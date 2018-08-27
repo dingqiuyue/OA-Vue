@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#app{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+#app .main{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+#app .app-header{color: #fff;flex:0 0 60px; background:#324057;line-height:60px;padding: 0 20px;}
+#app .app-header .title{font-size: 24px;}
+#app .app-content{flex:1;display: flex; flex-flow: row;}
+#app .app-content .app-nav{flex:0 0 300px;}
+#app .app-content .app-wrap{flex:1;padding:10px 20px;overflow:auto;}
+#app .app-content .app-wrap .content-wrap{height: 90%;border: 1px solid #d1dbe5;border-top:none;padding: 0 20px;}
+
+/* tab-content隐藏 */
+.el-tabs.el-tabs--border-card {box-shadow: none;border-bottom: none;}
+.app-nav-wrap{height: 100%;}
+.app-nav-wrap .el-menu{height: 100%;}

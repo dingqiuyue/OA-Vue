@@ -1,0 +1,24 @@
+<div class="main">
+    <div class="app-header">
+        <div class="title">后台管理系统</div>
+    </div>
+    <div class="app-content">
+        <div class="app-nav">
+            <app-nav></app-nav>
+        </div>
+        <div class="app-wrap">
+            <!-- 此处放置el-tabs代码 -->
+            <div class="template-tabs">
+                <el-tabs v-model="activeIndex" type="border-card" closable @tab-click="tabClick" v-if="options.length" @tab-remove="tabRemove">
+                    <el-tab-pane :key="item.name" v-for="(item, index) in options" :label="item.name" :name="item.route">
+                    </el-tab-pane>
+                </el-tabs>
+            </div>
+            <div class="content-wrap">
+                <keep-alive>
+                    <router-view/>
+                </keep-alive>
+            </div>
+        </div>
+    </div>
+</div>

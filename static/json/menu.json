@@ -1,0 +1,34 @@
+﻿{
+  "menu_list": [
+    {
+      "title": "首页",
+      "icon": "fa fa-home",
+      "path": "#/",
+      "page": "pages/home/default.html"
+    },
+    {
+      "title": "组织机构管理",
+      "icon": "fa fa-sitemap",
+      "path": "#/org",
+      "page": "pages/org/default.html"
+    },
+    {
+      "title": "角色用户管理",
+      "icon": "fa fa-users",
+      "path": "#/role_user",
+      "page": "pages/role_user/default.html",
+      "children": [
+        {
+          "title": "角色管理",
+          "path": "#/role_user/role",
+          "page": "pages/role_user/role.html"
+        },
+        {
+          "title": "用户管理",
+          "path": "#/role_user/user",
+          "page": "pages/role_user/user.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿.container{display: flex; position: absolute; top: 70px; bottom: 0; background-color: #F0F2F5;width: 100%;min-width: 800px;overflow-x: auto;}
+
+/*头部样式*/
+.header{height:70px;line-height:70px;background-color: #20a0ff;color: #fff;position: fixed;top: 0;left: 0;right: 0;width: 100%;}
+
+/*菜单样式*/
+.menu{flex: 0 0 220px; width: 220px;box-shadow: 0 0 20px #ccc;}
+.el-menu { border: 0;height: 100%;background-color: #F0F2F5;}
+.el-menu .el-menu-item [class^=fa]{ vertical-align: baseline; margin-right: 10px;color: #555; }
+.el-menu .el-menu-item { border-bottom: solid #dcdfe6 1px;font-size: 15px;font-weight: bold;padding: 0;}
+.el-menu .el-menu-item a { color: #555;display: block;line-height: 56px;padding: 0 20px;}
+.el-menu .el-menu-item.active { background-color: #fff;}
+.el-menu .el-menu-item.active a,
+.el-menu .el-menu-item.active [class^=fa]{color: #409EFF;}
+
+/*主要内容样式*/
+.main {flex: 1;padding: 20px;overflow: auto;}
+
+
+
+
+/*dialog样式*/
+.el-dialog__footer{ overflow: auto;}
+.dialog-footer{ float: right;}
+
+
+/*loading样式*/

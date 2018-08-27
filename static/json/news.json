@@ -1,0 +1,52 @@
+﻿{
+  "results": [
+    {
+      "id": 1,
+      "title": "the very first post",
+      "abstract": "lorem ipsum some test dimpsum",
+      "multimedia": [
+        {
+          "format": "superJumbo",
+          "image_url": null,
+          "url": "/static/images/1.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "and then there was the second",
+      "abstract": "lorem ipsum some test dimsum",
+      "multimedia": [
+        {
+          "format": "superJumbo",
+          "image_url": null,
+          "url": "/static/images/1.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "third time's a charm",
+      "abstract": "lorem ipsum some test dimsum",
+      "multimedia": [
+        {
+          "format": "superJumbo",
+          "image_url": null,
+          "url": "/static/images/1.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "four the last time",
+      "abstract": "lorem ipsum some test dimsum",
+      "multimedia": [
+        {
+          "format": "superJumbo",
+          "image_url": null,
+          "url": "/static/images/1.png"
+        }
+      ]
+    }
+  ]
+}

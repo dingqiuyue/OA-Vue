@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>OA-vue</title>
+    <link href="static/css/element-ui/reset.css" rel="stylesheet" />
+    <link href="static/css/element-ui/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+</body>
+
+</html>
+<script src="static/lib/seajs/sea.js"></script>
+<script src="static/lib/seajs/plugins/seajs-text.js"></script>
+<script src="static/lib/seajs/plugins/seajs-css.js"></script>
+
+<script src="static/lib/jquery/jquery-1.12.4.js"></script>
+
+<script src="static/lib/vue/vue.js"></script>
+<script src="static/lib/vue/vue-router.js"></script>
+<script src="static/lib/vue/vuex.js"></script>
+<script src="static/lib/axios/axios.min.js"></script>
+
+<script src="static/lib/element-ui/index.js"></script>
+<script>
+    //相对标识，以.或..开头
+    seajs.root = "./src";
+
+    seajs.config({
+        //base路径，所有顶级标识都基于base路径
+        base: seajs.root,
+        //路径设置
+        paths: {
+            //顶级标识，基于base路径
+            '@': 'components',
+        },
+        //别名设置，方便调用
+        alias: {
+            app: "app",
+        }
+    });
+
+    seajs.use("app");
+
+</script>
