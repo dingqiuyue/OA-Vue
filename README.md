@@ -6,7 +6,7 @@
 
 ![效果图](https://github.com/dingqiuyue/OA-Vue/blob/master/demo.gif)
 
-## Vue-OA  live-server开发环境配置说明
+## live-server开发环境配置说明
 1. 安装node.js
 
   在node.js官网中下载与操作系统对应的安装包，执行默认安装即可（安装目录安装在C盘）。
@@ -21,7 +21,7 @@
 
 4. 安装vsCode
 
-  下载与操作系统对应的安装包，执行默认安装即可。
+  下载与操作系统对应的安装包，执行默认安装即可。（用自己的编辑器即可）
 
 5. 快速搭建服务
 
