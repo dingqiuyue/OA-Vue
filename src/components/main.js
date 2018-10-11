@@ -4,7 +4,7 @@ define(function (require, exports, module) {
     var temp = require("@/main.html");
     var AppNav = require("@/AppNav/index");
     module.exports = {
-        name: "main",
+        name: "OA_main",
         template: temp,
         components: {
             AppNav
